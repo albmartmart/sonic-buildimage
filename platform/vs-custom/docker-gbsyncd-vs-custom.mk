@@ -1,6 +1,6 @@
-# docker image for vs_custom gbsyncd
+# docker image for vs-custom gbsyncd
 
-DOCKER_GBSYNCD_PLATFORM_CODE = vs_custom
+DOCKER_GBSYNCD_PLATFORM_CODE = vs-custom
 include $(PLATFORM_PATH)/../template/docker-gbsyncd-bookworm.mk
 
 $(DOCKER_GBSYNCD_BASE)_DEPENDS += $(SYNCD_VS_CUSTOM) \

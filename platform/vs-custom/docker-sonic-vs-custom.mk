@@ -1,7 +1,7 @@
 # docker image for virtual switch based sonic docker image
 
-DOCKER_SONIC_VS_CUSTOM = docker-sonic-vs_custom.gz
-$(DOCKER_SONIC_VS_CUSTOM)_PATH = $(PLATFORM_PATH)/docker-sonic-vs_custom
+DOCKER_SONIC_VS_CUSTOM = docker-sonic-vs-custom.gz
+$(DOCKER_SONIC_VS_CUSTOM)_PATH = $(PLATFORM_PATH)/docker-sonic-vs-custom
 $(DOCKER_SONIC_VS_CUSTOM)_DEPENDS += $(SYNCD_VS_CUSTOM) \
                               $(PYTHON3_SWSSCOMMON) \
                               $(LIBTEAMDCTL) \

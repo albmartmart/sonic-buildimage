@@ -1,6 +1,6 @@
-# docker image for vs_custom syncd
+# docker image for vs-custom syncd
 
-DOCKER_SYNCD_PLATFORM_CODE = vs_custom
+DOCKER_SYNCD_PLATFORM_CODE = vs-custom
 include $(PLATFORM_PATH)/../template/docker-syncd-bookworm.mk
 
 $(DOCKER_SYNCD_BASE)_DEPENDS += $(SYNCD_VS_CUSTOM) \

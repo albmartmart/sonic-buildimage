@@ -1,4 +1,4 @@
-# docker image for vs_custom gbsyncd
+# docker image for vs-custom gbsyncd
 
 DOCKER_DASH_ENGINE = docker-dash-engine.gz
 $(DOCKER_DASH_ENGINE)_VERSION = 1.0.0

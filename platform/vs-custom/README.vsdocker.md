@@ -14,13 +14,13 @@ sw-srv0 (id: 5)
 2. Start sonic virtual switch docker
 
 ```
-$ docker run --privileged --network container:sw --name vs_custom -d docker-sonic-vs_custom
+$ docker run --privileged --network container:sw --name vs-custom -d docker-sonic-vs-custom
 ```
 
 3. Setup IP in the virtual switch docker
 
 ```
-$ docker exec -it vs_custom bash
+$ docker exec -it vs-custom bash
 root@2e9b5c2dc2a2:/# config interface ip add Ethernet0 10.0.0.0/31
 root@2e9b5c2dc2a2:/# config interface ip add Ethernet4 10.0.0.2/31
 root@2e9b5c2dc2a2:/# config interface startup Ethernet0

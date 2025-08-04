@@ -1,7 +1,7 @@
-# sonic vs_custom one image installer
+# sonic vs-custom one image installer
 
-SONIC_ONE_IMAGE = sonic-vs_custom.bin
-$(SONIC_ONE_IMAGE)_MACHINE = vs_custom
+SONIC_ONE_IMAGE = sonic-vs-custom.bin
+$(SONIC_ONE_IMAGE)_MACHINE = vs-custom
 $(SONIC_ONE_IMAGE)_IMAGE_TYPE = onie
 $(SONIC_ONE_IMAGE)_INSTALLS += $(SYSTEMD_SONIC_GENERATOR)
 $(SONIC_ONE_IMAGE)_LAZY_INSTALLS += $(VS_CUSTOM_PLATFORM_MODULE)

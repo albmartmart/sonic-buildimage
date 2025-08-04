@@ -1,12 +1,12 @@
-include $(PLATFORM_PATH)/syncd-vs_custom.mk
+include $(PLATFORM_PATH)/syncd-vs-custom.mk
 include $(PLATFORM_PATH)/sonic-version.mk
-include $(PLATFORM_PATH)/docker-sonic-vs_custom.mk
-include $(PLATFORM_PATH)/docker-syncd-vs_custom.mk
-include $(PLATFORM_PATH)/docker-gbsyncd-vs_custom.mk
+include $(PLATFORM_PATH)/docker-sonic-vs-custom.mk
+include $(PLATFORM_PATH)/docker-syncd-vs-custom.mk
+include $(PLATFORM_PATH)/docker-gbsyncd-vs-custom.mk
 include $(PLATFORM_PATH)/docker-ptf.mk
 include $(PLATFORM_PATH)/docker-ptf-sai.mk
 include $(PLATFORM_PATH)/libsaithrift-dev.mk
-include $(PLATFORM_PATH)/platform-modules-vs_custom.mk
+include $(PLATFORM_PATH)/platform-modules-vs-custom.mk
 include $(PLATFORM_PATH)/one-image.mk
 include $(PLATFORM_PATH)/onie.mk
 include $(PLATFORM_PATH)/kvm-image.mk
